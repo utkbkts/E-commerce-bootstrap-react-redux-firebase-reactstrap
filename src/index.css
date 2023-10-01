@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color:#0080FF;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+
+}
+section{
+    padding: 60px 0px;
+}
+.section__title{
+    color: black;
+    font-weight: 500;
+}
+.white{
+    background: var(--color);
+    width: 100%;
+    padding: 10px;
+    overflow-x: hidden;
+}
+.footer__text{
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.735);
+}
+.footer__quick-links ul li{
+    background: transparent !important;
+}
+.footer__quick-links ul li a{
+    color: rgba(255, 255, 255, 0.735);
+    text-decoration: none;
+
+}
+.title{
+    margin-bottom: 30px;
+    color: white !important;
+    font-size: 1.1rem;
+}
+
+/* productdetails */
+
+.product__details{
+    margin-top: 50px;
+}
+.product__details h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.product__rating span i{
+    color: coral;
+}
+.rating{
+    color: coral;
+    font-weight: 500;
+    margin-bottom: 0 !important;
+}
+.product-price{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.tab__wrapper{
+    color: var(--color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+.active__tab{
+    font-weight: 600;
+    color: black;
+}
+.tab__content p{
+    line-height: 30px;
+}
+.review__form{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.review__form h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.form__group input,
+.form__group textarea{
+    width: 100%;
+    border: 1px solid var(--color);
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.form__group input:focus
+.form__group textarea:focus{
+    outline: none;
+}
+
+.form__group{
+    margin-bottom: 30px;
+}
+.form__group span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: coral;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* formadd */
+.form-add input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid darkgray;
+}
+.category-add{
+    display: flex;
+    flex-direction: column;
+}
+.category-add select{
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid darkgray;
+
+}

@@ -1,0 +1,43 @@
+.auth__form {
+  background: var(--color);
+  padding: 40px;
+  border-radius: 4px;
+}
+.login__btn {
+  background: #fff;
+  color: var(--color);
+  font-weight: 500;
+}
+.auth__form input[type="file"] {
+  color: #fff;
+  cursor: pointer;
+}
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .logout {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+  }
+  .show__profile {
+    visibility: visible !important;
+    opacity: 1;
+  }
+  .profile {
+    position: relative;
+  }
+}
+
+@media(max-width:600px){
+  .profile .mobile{
+        display: none;
+    }
+}
